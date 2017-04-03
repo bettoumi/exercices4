@@ -1,0 +1,25 @@
+/*-----------titres----------*/
+h1, .list h2
+{
+	color: black;
+}
+h1
+{
+  font-family: times;
+}
+
+/*-----------paragraphe----------*/
+ .list p{
+	color:grey;
+	
+}
+.list
+{
+text-decoration: line-through;
+}
+
+/*-----------liste----------*/
+.list ul
+{
+	list-style-type: none;
+}

@@ -1,0 +1,29 @@
+
+/*-------exercice -1-------*/
+.container
+{
+	height: 500px;
+	border:2px solid grey;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	/*align-content: space-around;*/ 
+	
+}
+.container .item
+{
+	width: 200px;
+	height: 200px;
+
+	background-color: lightblue;
+	display: flex;
+
+
+}
+ p
+ {
+ 	
+ 	margin:auto;
+
+
+ 	}

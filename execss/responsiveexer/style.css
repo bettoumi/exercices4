@@ -1,0 +1,85 @@
+
+/*---------exercice1--------
+div
+{
+	width: 65%;
+	background-color: black;
+	margin:50px auto;
+	font-size: 1.5em;
+	border:1px solid red;
+}
+@media (max-width: 700px) 
+{ div{
+	background-color: #ff6666;
+	font-size: 1em;
+	color:white;
+}
+}*/
+/*---------------exercie2-------
+div
+{
+	width: 50%;
+	background-color: #ff6666;
+	margin:30px auto;
+	padding: 20px;
+	color:white;
+}
+@media (min-width: 701px)
+{
+	div
+	{
+		width: 65%;
+		background-color: lightgrey;
+		margin: 50px auto;
+		padding:50px;
+		font-size: 1.2em;
+		color:white;
+	}
+}*/
+/* Très petits écrans (smartphones, moins de 768px) */
+/* Pas besoin de media-query, c'est le style par défaut */
+
+body {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;;
+}
+
+/********** Début des déclarations Flexbox (Sujet abordé dans le prochain cours) ***********/
+header, aside, section, footer {
+  display: flex;
+  margin: 2%;
+}
+
+p {
+  margin: auto;
+}
+/********** Fin des déclarations Flexbox ***********/
+
+header, footer{
+  background-color: #ff9966;
+  height: 150px;
+}
+
+section {
+  background-color: #33cccc;
+  height: 150px;
+}
+aside
+{
+	display: none;
+}
+
+
+/* Petits écrans (tablettes, 768px et plus) */
+@media (min-width: 768px)
+{
+
+}
+
+/* Ecrans moyens (desktops, 992px et plus) */
+@media (min-width:992px)
+{
+	
+}
